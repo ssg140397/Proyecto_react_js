@@ -7,12 +7,12 @@ import ItemListContainer from "./components/pages/itemListContainer/ItemListCont
 
 function App() {
   
-  let saludo = "Bienvenido a "
+  let saludo = "¡Bienvenido a FitSport Shop!"
 
   return (
     <div>
       <Navbar />
-      <ItemListContainer/>
+      <ItemListContainer greeting = {'bienvenidos'}/>
     </div>
   )
 }

@@ -4,11 +4,11 @@ import CartWidget from "../../common/cartWidget/CartWidget"
 const Navbar = () => {
   return (
     <div>
-        <h4>Logo</h4>
+        <h4>FitSport Shop</h4>
         <ul>
             <li>Todos los productos</li>
-            <li>Snacks</li>
-            <li>Accesorios</li>
+            <li>Snacks proteinicos</li>
+            <li>Accesorios deportivos</li>
             <li>Suplementos</li>
         </ul>
     <CartWidget/>
