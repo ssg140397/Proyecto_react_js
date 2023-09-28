@@ -1,17 +1,18 @@
 
 import Navbar from "./components/layout/navbar/Navbar"
-import {Home} from "./components/pages/home/Home"
-import Login from "./components/pages/login/Login"
+
+import ItemListContainer from "./components/pages/itemListContainer/ItemListContainer"
+
 
 
 function App() {
   
+  let saludo = "Bienvenido a "
 
   return (
     <div>
       <Navbar />
-      <Home />
-      <Login />
+      <ItemListContainer/>
     </div>
   )
 }
